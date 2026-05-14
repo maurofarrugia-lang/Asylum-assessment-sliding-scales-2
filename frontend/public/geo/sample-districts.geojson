@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {"type": "Feature", "properties": {"name": "El Fasher", "risk": "high"}, "geometry": {"type": "Polygon", "coordinates": [[[0,0],[1,0],[1,1],[0,1],[0,0]]] }},
+    {"type": "Feature", "properties": {"name": "Kutum", "risk": "moderate"}, "geometry": {"type": "Polygon", "coordinates": [[[1,0],[2,0],[2,1],[1,1],[1,0]]] }},
+    {"type": "Feature", "properties": {"name": "Khartoum", "risk": "high"}, "geometry": {"type": "Polygon", "coordinates": [[[0,1],[1,1],[1,2],[0,2],[0,1]]] }},
+    {"type": "Feature", "properties": {"name": "Omdurman", "risk": "moderate"}, "geometry": {"type": "Polygon", "coordinates": [[[1,1],[2,1],[2,2],[1,2],[1,1]]] }}
+  ]
+}

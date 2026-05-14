@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-100 text-slate-900;
+}
+
+.panel {
+  @apply rounded-2xl border border-gov-line bg-white shadow-sm;
+}
+
+.panel-title {
+  @apply text-lg font-semibold text-gov-ink;
+}
+
+.kicker {
+  @apply text-xs uppercase tracking-[0.18em] text-gov-slate;
+}
+
+.input {
+  @apply w-full rounded-xl border border-gov-line bg-white px-3 py-2 text-sm outline-none transition focus:border-gov-accent focus:ring-2 focus:ring-sky-100;
+}
+
+.textarea {
+  @apply input min-h-24;
+}
+
+.btn-primary {
+  @apply rounded-xl bg-gov-ink px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-900;
+}
+
+.btn-secondary {
+  @apply rounded-xl border border-gov-line bg-white px-4 py-2 text-sm font-medium text-gov-ink transition hover:bg-gov-mist;
+}
